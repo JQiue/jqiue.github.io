@@ -1,0 +1,1 @@
+import{ac as e,A as t,B as a,E as o,z as s}from"./framework.a879f165.js";const c={},n=s("p",null,"能够以任何语言编写代码，并编译成可在浏览器中运行的代码，并且可以运行在浏览器之外，似乎...是另一个 Node.js 呢，未来的潜力不可小觑",-1);function r(_,l){return t(),a("div",null,[n,o(" to be updated ")])}const m=e(c,[["render",r],["__file","wasm.html.vue"]]);export{m as default};

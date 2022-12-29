@@ -1,0 +1,9 @@
+import{ac as l,A as i,B as d,z as e,M as n,H as s,E as r,ae as t,O as o}from"./framework.a879f165.js";const c={},p={href:"https://developer.android.google.cn/studio/command-line/adb",target:"_blank",rel:"noopener noreferrer"},b={href:"https://adbshell.com/downloads",target:"_blank",rel:"noopener noreferrer"},u=t(`<div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>adb shell am start <span class="token parameter variable">-n</span> 应用 Activity    --启动应用
+adb shell screencap <span class="token parameter variable">-p</span> 截图路径及文件名 -- 截图
+adb shell input keyevent 按键码        -- 模拟系统按键
+adb shell input tap x y               -- 点击某个位置
+adb shell input swipe x y x y         -- 滑动到某个位置
+adb shell input text 文本             -- 输入文本（只能是英文）
+adb pull 截图路径及文件名 ./            -- 把截图拖到电脑上
+adb <span class="token function">install</span> <span class="token parameter variable">-r</span> apk 路径                -- 安装 apk 到手机
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="连接-wifi-调试手机" tabindex="-1"><a class="header-anchor" href="#连接-wifi-调试手机" aria-hidden="true">#</a> 连接 WIFI 调试手机</h2><p>要求：</p><ul><li>Android 11 以上</li><li>手机和电脑在同一局域网</li></ul><p>先连接数据线，使用<code>adb tcpip [port]</code>让手机某个端口处于监听状态</p><p>在手机 wifi 设置中查看手机的 ip 地址，并使用<code>adb connect [ipdress]:[port]</code>进行连接</p><p>然后就可以拔掉数据线了</p><p>下一次连接时，要先手动<code>adb disconnect [ipdress]:[port]</code>，然后在尝试连接</p>`,8);function m(v,h){const a=o("ExternalLinkIcon");return i(),d("div",null,[e("p",null,[e("a",p,[n("google 教程"),s(a)])]),e("p",null,[e("a",b,[n("下载地址"),s(a)])]),u,r(" more ")])}const f=l(c,[["render",m],["__file","adb.html.vue"]]);export{f as default};

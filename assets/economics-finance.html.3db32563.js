@@ -1,0 +1,1 @@
+import{ac as c,A as a,B as n,z as e,M as t}from"./framework.a879f165.js";const o={},s=e("h2",{id:"参考资料",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#参考资料","aria-hidden":"true"},"#"),t(" 参考资料")],-1),r=[s];function i(_,d){return a(),n("div",null,r)}const l=c(o,[["render",i],["__file","economics-finance.html.vue"]]);export{l as default};

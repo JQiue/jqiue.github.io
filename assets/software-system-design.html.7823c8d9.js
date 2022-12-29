@@ -1,0 +1,1 @@
+import{ac as e,A as t,B as s}from"./framework.a879f165.js";const c={};function r(n,o){return t(),s("div")}const _=e(c,[["render",r],["__file","software-system-design.html.vue"]]);export{_ as default};
